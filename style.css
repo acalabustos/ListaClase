@@ -1,0 +1,51 @@
+form {
+     margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: rgb(243, 207, 160);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid rgb(66, 9, 223);
+}
+
+input:focus,
+textarea:focus {
+    border-color: rgb(67, 218, 37);
+}
+
+textarea { 
+    vertical-align: top;
+    height: 5em;
+}
+
+.button { 
+    padding-left: 90px;
+    
+}
+
+button {
+    margin-left: 0.5em;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Mi clase</title>
+</head>
+
+<body>
+    <h1>Mi clase</h1>
+    <form class="listaclase" id="form">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" class="form-control" id="inpNombre" name="nombre" />
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" class="form-control" id="inpApellidos" name="apellidos" />
+
+        <label for="curso">Curso</label>
+        <input type="number" class="form-control" id="inpCurso" name="curso" />
+
+        <label for="email">E-mail:</label>
+        <input type="email" class="form-control" id="inpEemail" name="email" />
+
+        <button type="submit">Agregar</button>
+
+    </form>
+
+    <!--
+    <input type="button" value="Cargar lista" id="agregar1" onclick="agregar()">
+    <input type="button" value="Guardar lista" id="agregar2" onclick="agregar()">
+    -->
+
+    <table id="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Curso</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+<script src="index.js" type="text/javascrips"></script>
+</body>
+
+</html>
