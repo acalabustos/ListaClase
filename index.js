@@ -7,6 +7,7 @@ form.addEventListener('submit', function(event)
     let tabla = document.getElementById('table');
     let newRow = tabla.insertRow(-1);
     let newCell= newRow.insertCell(0);
+    
 
     newCell = newRow.insertCell(1);
     newCell.textContent = transFormData.get("nombre");
