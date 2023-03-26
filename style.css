@@ -1,51 +1,71 @@
-form {
-     margin: 0 auto;
-    width: 400px;
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
-    background-color: rgb(243, 207, 160);
+
+
+*{box-sizing:border-box;}
+body{
+    background-image: url("https://us.123rf.com/450wm/annagolant/annagolant1610/annagolant161000015/64867336-manchas-amarillas-fondo-con-manchas-y-salpicaduras-de-pintura.jpg?ver=6");
+    /* background-repeat: no-repeat; */
+
+}
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#DE1E41;
+   
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
 }
 
-form li+li {
-    margin-top: 1em;
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
 }
 
-label {
-    display: inline-block;
-    width: 90px;
-    text-align: right;
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
 }
 
-input,
-textarea {
-    font: 1em sans-serif;
-    width: 300px;
-    box-sizing: border-box;
-    border: 1px solid rgb(66, 9, 223);
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
 }
+table { 
+    border-collapse: collapse; 
+    margin: 25px 0; 
+    font-size: 1em; 
+    font-family: sans-serif; 
+    min-width: 450px; 
+    box-shadow: 0 0 20px rgb(208, 255, 0); }
 
-input:focus,
-textarea:focus {
-    border-color: rgb(67, 218, 37);
-}
-
-textarea { 
-    vertical-align: top;
-    height: 5em;
-}
-
-.button { 
-    padding-left: 90px;
-    
-}
-
-button {
-    margin-left: 0.5em;
-}
+tr { background-color: #980081; 
+    color: #ffffff; 
+    text-align: middle; }
+td { padding: 12px 15px; }
